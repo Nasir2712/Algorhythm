@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PlaylistMasterViewController : UIViewController
+
+@property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *playlistImageViews;
+
+
+
 
 
 @end
